@@ -1,0 +1,14 @@
+start:
+INP
+STA val1
+INP
+STA val2
+CMA
+INC
+ADD val1
+STA val3
+OUT
+HLT
+val1:.data 1 0
+val2:.data 1 0
+val3:.data 1 0

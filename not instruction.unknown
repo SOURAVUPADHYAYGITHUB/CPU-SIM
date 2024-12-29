@@ -1,0 +1,8 @@
+inp
+sta x
+cma
+sta y
+out
+hlt
+x:.data 1 0
+y:.data 1 0

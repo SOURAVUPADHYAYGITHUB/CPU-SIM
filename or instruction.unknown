@@ -1,0 +1,18 @@
+inp
+sta v1
+cma
+sta V1
+inp
+sta v2
+cma
+sta V2
+and V1
+cma
+sta V3
+out
+hlt
+V1:.data 1 0
+V2:.data 1 0
+V3:.data 1 0
+v1:.data 1 0
+v2:.data 1 0

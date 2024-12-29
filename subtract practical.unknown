@@ -1,0 +1,10 @@
+START: 
+inp
+sta val1
+inp
+cma
+inc
+add val1
+out
+hlt
+val1: .data 1 0
